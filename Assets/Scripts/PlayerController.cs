@@ -10,24 +10,22 @@ public class PlayerController : MonoBehaviour
     public float speed = 10f;
     public float rotationSpeed = 100.0f;
     public FloatingJoystick joystick;
+     JoyButton joybutton;
+    bool bombShot = false;
+    public GameObject bombPrefab;
+
     Rigidbody rb;
     // Update is called once per frame
     private void Start()
     {
-        transform.Rotate(-90, 0, 0);
+     
         rb = GetComponent<Rigidbody>();
     }
     void FixedUpdate()
     {
 
         if (joystick != null)
-        {/*
-            var x = joystick.Horizontal * Time.deltaTime * rotationSpeed;
-            var z = joystick.Vertical * Time.deltaTime * speed;
-
-            transform.Rotate(0, x, 0);
-            transform.Translate(0, z, 0);
-           */
+        {
             Vector3 moveVector = transform.forward * speed;
 
             Vector3 yaw = joystick.Horizontal * transform.right * rotationSpeed * Time.deltaTime;
@@ -35,8 +33,9 @@ public class PlayerController : MonoBehaviour
             Vector3 dir = yaw + pitch;
 
             float max = Quaternion.LookRotation(moveVector + dir).eulerAngles.x;
-
-            if (max < 90 && max > 70 || max > 270 && max < 290)
+            
+         
+            if (max < 90 && max > 70 || max > 270 && max < 290 )
             { }
             else moveVector += dir;
 
@@ -47,6 +46,21 @@ public class PlayerController : MonoBehaviour
 
 
         }
+        if (!joybutton.Pressed) bombShot = false;
+        if (!bombShot && joybutton.Pressed)
+        {
+            bombShot = true;
+            GameObject clone;
+            clone = Instantiate(bombPrefab, transform.position - new Vector3(0, 0.1f, 0), transform.rotation);
+
+            // Give the cloned object an initial velocity along the current
+            // object's Z axis
+            clone.GetComponent<Rigidbody>().velocity = Vector3.down;
+        }
+    }
+    public void SetInputButton(JoyButton jb)
+    {
+        joybutton = jb;
     }
     public void SetInput(FloatingJoystick js)
     {

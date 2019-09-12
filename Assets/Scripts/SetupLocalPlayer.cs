@@ -10,24 +10,30 @@ public class SetupLocalPlayer : NetworkBehaviour
     public GameObject mainInputField;
     public GameObject inputField;
     public GameObject js;
+    public GameObject jb;
+
 
     public Material[] texturas;
     void Start()
     {
-        //        mainInputField.GetComponent<InputField>().onEndEdit.AddListener(delegate { getName(); });//quitar creo
+
         makeVisible(false);
 
         if (isLocalPlayer)
         {
             GetComponent<PlayerController>().enabled = true;
             GameObject input = Instantiate(js, GameObject.FindGameObjectWithTag("Canvas").transform);
+            GameObject inputButton = Instantiate(jb, GameObject.FindGameObjectWithTag("Canvas").transform);
        //     inputField =  Instantiate(mainInputField.gameObject, GameObject.FindGameObjectWithTag("Canvas").transform);
             GetComponent<PlayerController>().SetInput(input.GetComponent<FloatingJoystick>());
-            GetComponent<MeshRenderer>().material = texturas[GameObject.FindGameObjectsWithTag("Player").Length - 1];
+            GetComponent<PlayerController>().SetInputButton(inputButton.GetComponent<JoyButton>());
 
-          //  inputField.gameObject.SetActive(true);
-           
+            GetComponent<MeshRenderer>().material = texturas[2];
+
+            //  inputField.gameObject.SetActive(true);
+
         }
+        else GetComponent<MeshRenderer>().material = texturas[3];
     }
     
 
@@ -36,8 +42,7 @@ public class SetupLocalPlayer : NetworkBehaviour
     {
         if (isLocalPlayer)
         {
-            //Debug.Log("a " + inputField.GetComponent<InputField>().text + " b " + mainInputField.GetComponent<InputField>().text);
-           // if (inputField.GetComponent<InputField>().text != "" && Input.GetMouseButtonUp(0))
+               // if (inputField.GetComponent<InputField>().text != "" && Input.GetMouseButtonUp(0))
             {
 
                 //   getName();
@@ -60,6 +65,7 @@ public class SetupLocalPlayer : NetworkBehaviour
     {
       //  gameObject.SetActive(b);
         gameObject.GetComponent<MeshRenderer>().enabled = b;
+        
         foreach (Renderer r in GetComponentsInChildren<Renderer>())
             r.enabled = b;
     }

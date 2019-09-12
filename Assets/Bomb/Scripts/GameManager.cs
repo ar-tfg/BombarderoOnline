@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : NetworkBehaviour {
    public static GameManager instance;
     public UnityEngine.UI.Text puntosText;
     int floorsD;
@@ -20,6 +21,11 @@ public class GameManager : MonoBehaviour {
    public void floorDestroyed()
     {
         floorsD++;
-        puntosText.text = "Puntos = " + floorsD;
+        //puntosText.text = "Puntos = " + floorsD;
+    }
+    [Command]
+    void CmdfloorDestroyed()
+    {
+
     }
 }

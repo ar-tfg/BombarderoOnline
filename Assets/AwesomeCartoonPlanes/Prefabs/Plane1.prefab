@@ -34,7 +34,7 @@ Transform:
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_Children:
   - {fileID: 400002}
   - {fileID: 400004}
@@ -166,6 +166,7 @@ MonoBehaviour:
     type: 3}
   inputField: {fileID: 0}
   js: {fileID: 1419460333080702, guid: cdd5474b97f1a9d40bea678ca8dec2bb, type: 3}
+  jb: {fileID: 8541553328198187323, guid: 4e389d79938f1424ead8892e73acc7af, type: 3}
   texturas:
   - {fileID: 2100000, guid: 421e2c6f2c6e454408632e9782cf744e, type: 2}
   - {fileID: 2100000, guid: b6bccb5d2d4ed7b4d99b27cb8af082d6, type: 2}
@@ -218,9 +219,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30898184742123347876311a87baa5b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  rotationSpeed: 10
+  speed: 0.8
+  rotationSpeed: 2
   joystick: {fileID: 114567654956667342, guid: cdd5474b97f1a9d40bea678ca8dec2bb, type: 3}
+  bombPrefab: {fileID: 2086986083548797019, guid: 50dc5e23ae7d63c45892fe647b8cec56,
+    type: 3}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0

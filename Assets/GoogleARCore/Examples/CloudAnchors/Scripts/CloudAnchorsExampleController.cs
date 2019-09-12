@@ -318,8 +318,12 @@ namespace GoogleARCore.Examples.CloudAnchors
         {
             m_AnchorFinishedHosting = success;
             UIController.OnAnchorHosted(success, response);
-            GameObject.Find("LocalPlayer").GetComponent<SetupLocalPlayer>().makeVisible(true);
             GameObject.Find("LocalPlayer").GetComponent<SetupLocalPlayer>().Reposisionate();
+
+            foreach (GameObject r in GameObject.FindGameObjectsWithTag("Player"))
+            {
+               r.GetComponent<SetupLocalPlayer>().makeVisible(true);
+            }
 
         }
 
@@ -332,8 +336,13 @@ namespace GoogleARCore.Examples.CloudAnchors
         public void OnAnchorResolved(bool success, string response)
         {
             UIController.OnAnchorResolved(success, response);
-            GameObject.Find("LocalPlayer").GetComponent<SetupLocalPlayer>().makeVisible(true);
+
             GameObject.Find("LocalPlayer").GetComponent<SetupLocalPlayer>().Reposisionate();
+
+            foreach (GameObject r in GameObject.FindGameObjectsWithTag("Player"))
+            {
+                r.GetComponent<SetupLocalPlayer>().makeVisible(true);
+            }
         }
 
         /// <summary>
