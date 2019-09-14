@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 65723073485262442}
   - component: {fileID: 54785238450854344}
   - component: {fileID: 114053579673169882}
+  - component: {fileID: 2385239471202104550}
   m_Layer: 0
   m_Name: 1
   m_TagString: Edificio
@@ -121,6 +122,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2385239471202104550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008552641182898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1037205069138338
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,6 +169,7 @@ GameObject:
   - component: {fileID: 65299142735885994}
   - component: {fileID: 54972279290773414}
   - component: {fileID: 114805493474975424}
+  - component: {fileID: 7696860479226483056}
   m_Layer: 0
   m_Name: 1
   m_TagString: Edificio
@@ -242,6 +277,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7696860479226483056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037205069138338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1190443146704280
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,6 +324,7 @@ GameObject:
   - component: {fileID: 65675696410813360}
   - component: {fileID: 54026765644416750}
   - component: {fileID: 114863137081462956}
+  - component: {fileID: 4760631639841716344}
   m_Layer: 0
   m_Name: 1
   m_TagString: Edificio
@@ -363,6 +432,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4760631639841716344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190443146704280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1310803407354798
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,6 +479,7 @@ GameObject:
   - component: {fileID: 65823159644664128}
   - component: {fileID: 54691831910340200}
   - component: {fileID: 114761657223601214}
+  - component: {fileID: 6404707101428053600}
   m_Layer: 0
   m_Name: 1
   m_TagString: Edificio
@@ -484,6 +587,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6404707101428053600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310803407354798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1364786790150124
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +634,7 @@ GameObject:
   - component: {fileID: 65071449956499014}
   - component: {fileID: 54298647870700596}
   - component: {fileID: 114123887526236734}
+  - component: {fileID: 1938057567959786954}
   m_Layer: 0
   m_Name: Planta
   m_TagString: Edificio
@@ -605,6 +742,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1938057567959786954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364786790150124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1386103488687846
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,6 +789,7 @@ GameObject:
   - component: {fileID: 65914821699954380}
   - component: {fileID: 54904951483447064}
   - component: {fileID: 114959643159125628}
+  - component: {fileID: 425794914803333390}
   m_Layer: 0
   m_Name: 1
   m_TagString: Edificio
@@ -726,6 +897,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &425794914803333390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386103488687846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1521938322362418
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +944,7 @@ GameObject:
   - component: {fileID: 65571254491840002}
   - component: {fileID: 54882153454460782}
   - component: {fileID: 114404015410587106}
+  - component: {fileID: 4509238515760139039}
   m_Layer: 0
   m_Name: Planta
   m_TagString: Edificio
@@ -847,6 +1052,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4509238515760139039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521938322362418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1522317387314458
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,6 +1099,7 @@ GameObject:
   - component: {fileID: 65181644356379206}
   - component: {fileID: 54865338359204008}
   - component: {fileID: 114415386690696572}
+  - component: {fileID: 514205443516883451}
   m_Layer: 0
   m_Name: Planta
   m_TagString: Edificio
@@ -968,6 +1207,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &514205443516883451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522317387314458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1597891495286740
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +1254,7 @@ GameObject:
   - component: {fileID: 65834142225798310}
   - component: {fileID: 54819180829992406}
   - component: {fileID: 114325131338933962}
+  - component: {fileID: 7566081710439516581}
   m_Layer: 0
   m_Name: 2
   m_TagString: Edificio
@@ -1089,6 +1362,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7566081710439516581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597891495286740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1618882891025576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,6 +1442,7 @@ GameObject:
   - component: {fileID: 65800042575681178}
   - component: {fileID: 54396635488081920}
   - component: {fileID: 114181984424780740}
+  - component: {fileID: 5156887995590976939}
   m_Layer: 0
   m_Name: Planta
   m_TagString: Edificio
@@ -1243,6 +1550,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5156887995590976939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628428499990234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1647649941707550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1772,7 @@ GameObject:
   - component: {fileID: 65205436286555316}
   - component: {fileID: 54507319128994260}
   - component: {fileID: 114491533441174806}
+  - component: {fileID: 2719909314263590209}
   m_Layer: 0
   m_Name: 2
   m_TagString: Edificio
@@ -1539,6 +1880,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2719909314263590209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716282780352004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1821608450508908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +1927,7 @@ GameObject:
   - component: {fileID: 65690942597018998}
   - component: {fileID: 54038834877642178}
   - component: {fileID: 114140400166948144}
+  - component: {fileID: 2922068811156672618}
   m_Layer: 0
   m_Name: Planta
   m_TagString: Edificio
@@ -1660,6 +2035,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2922068811156672618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821608450508908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1823411386769834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,6 +2198,7 @@ GameObject:
   - component: {fileID: 65183159811673964}
   - component: {fileID: 54733774807421240}
   - component: {fileID: 114932314237726074}
+  - component: {fileID: 6073019759365800981}
   m_Layer: 0
   m_Name: 2
   m_TagString: Edificio
@@ -1897,6 +2306,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6073019759365800981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920683578750078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1926849553324396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,6 +2353,7 @@ GameObject:
   - component: {fileID: 65493903451198736}
   - component: {fileID: 54566455427687312}
   - component: {fileID: 114453549505683612}
+  - component: {fileID: 5053043669834391540}
   m_Layer: 0
   m_Name: 2
   m_TagString: Edificio
@@ -2018,6 +2461,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5053043669834391540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926849553324396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1973698802275278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2032,6 +2508,7 @@ GameObject:
   - component: {fileID: 65786983777114130}
   - component: {fileID: 54501693107525422}
   - component: {fileID: 114296899381351016}
+  - component: {fileID: 6937538368789824775}
   m_Layer: 0
   m_Name: 2
   m_TagString: Edificio
@@ -2139,6 +2616,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5864081df69fd734ba6a447441a41cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6937538368789824775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973698802275278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 0
+    i1: 0
+    i2: 0
+    i3: 0
+    i4: 0
+    i5: 0
+    i6: 0
+    i7: 0
+    i8: 0
+    i9: 0
+    i10: 0
+    i11: 0
+    i12: 0
+    i13: 0
+    i14: 0
+    i15: 0
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
 --- !u!1 &1982068483717702
 GameObject:
   m_ObjectHideFlags: 0

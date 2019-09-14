@@ -18,8 +18,9 @@ public class FloorLogic : MonoBehaviour {
     {
         if (other.CompareTag("Bomba"))
         {
-            GameManager.instance.floorDestroyed();
-            Destroy(this.gameObject);
+            GameManager.instance.CmdfloorDestroyed(this.gameObject);
+           // Destroy(this.gameObject);
+        
         }
     }
 }

@@ -50,12 +50,10 @@ public class PlayerController : MonoBehaviour
         if (!bombShot && joybutton.Pressed)
         {
             bombShot = true;
-            GameObject clone;
-            clone = Instantiate(bombPrefab, transform.position - new Vector3(0, 0.1f, 0), transform.rotation);
-
+           
+            GameManager.instance.CmdSpawnObject(bombPrefab,transform.position,transform.rotation);
             // Give the cloned object an initial velocity along the current
             // object's Z axis
-            clone.GetComponent<Rigidbody>().velocity = Vector3.down;
         }
     }
     public void SetInputButton(JoyButton jb)

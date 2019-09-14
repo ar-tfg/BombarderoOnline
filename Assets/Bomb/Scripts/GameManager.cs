@@ -24,8 +24,19 @@ public class GameManager : NetworkBehaviour {
         //puntosText.text = "Puntos = " + floorsD;
     }
     [Command]
-    void CmdfloorDestroyed()
+    public void CmdfloorDestroyed(GameObject objToDestroy)
     {
+        NetworkServer.UnSpawn(objToDestroy);
+        NetworkServer.Destroy(objToDestroy);
+    }
+    [Command]
+
+    public void CmdSpawnObject(GameObject objToSpawn, Vector3 p, Quaternion r)
+    {
+        GameObject clone;
+        clone = Instantiate(objToSpawn, p - new Vector3(0, 0.1f, 0), r);
+        NetworkServer.Spawn(clone);
+        clone.GetComponent<Rigidbody>().velocity = Vector3.down;
 
     }
 }
