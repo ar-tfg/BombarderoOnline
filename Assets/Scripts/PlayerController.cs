@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.Networking;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : NetworkBehaviour
 {
     string p_name;
     public float speed = 10f;
@@ -13,7 +14,7 @@ public class PlayerController : MonoBehaviour
      JoyButton joybutton;
     bool bombShot = false;
     public GameObject bombPrefab;
-
+    [SyncVar] int puntos = 0;
     Rigidbody rb;
     // Update is called once per frame
     private void Start()
@@ -23,7 +24,7 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
-
+        if (isLocalPlayer) { 
         if (joystick != null)
         {
             Vector3 moveVector = transform.forward * speed;
@@ -46,15 +47,37 @@ public class PlayerController : MonoBehaviour
 
 
         }
-        if (!joybutton.Pressed) bombShot = false;
         if (!bombShot && joybutton.Pressed)
         {
             bombShot = true;
-           
-            GameManager.instance.CmdSpawnObject(bombPrefab,transform.position,transform.rotation);
+                Invoke("setBombShotFalse", 1.0f);
+            CmdSpawnObject(transform.position,transform.rotation);
             // Give the cloned object an initial velocity along the current
             // object's Z axis
         }
+        }
+    }
+
+    [Command]
+    public void CmdSpawnObject( Vector3 p, Quaternion r)
+    {
+        GameObject clone;
+        clone = Instantiate(bombPrefab, p - new Vector3(0, 0.1f, 0), r);
+        clone.GetComponent<Rigidbody>().velocity = Vector3.down;
+        NetworkServer.Spawn(clone);
+
+    }
+
+    [Command]
+    public void CmdDestroyObject(GameObject goDestroy)
+    {
+        puntos++;
+        NetworkServer.Destroy(goDestroy);
+    }
+    void setBombShotFalse()
+    {
+        bombShot = false;
+
     }
     public void SetInputButton(JoyButton jb)
     {

@@ -391,8 +391,7 @@ namespace GoogleARCore.Examples.CloudAnchors
         private void _InstantiateStar()
         {
             // Star must be spawned in the server so a networking Command is used.
-            GameObject.Find("LocalPlayer").GetComponent<LocalPlayerController>()
-                .CmdSpawnStar(m_LastHitPose.Value.position, m_LastHitPose.Value.rotation);
+          //  GameObject.Find("LocalPlayer").GetComponent<LocalPlayerController>().CmdSpawnStar(m_LastHitPose.Value.position, m_LastHitPose.Value.rotation);
         }
 
         /// <summary>

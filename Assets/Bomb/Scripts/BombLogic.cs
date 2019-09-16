@@ -9,7 +9,9 @@ public class BombLogic : MonoBehaviour {
     
 
     void Start () {
+        Debug.Log("SKR me he creado");
         Destroy(this.gameObject, TTL);
+
     }
 	
 	// Update is called once per frame

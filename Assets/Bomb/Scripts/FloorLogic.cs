@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class FloorLogic : MonoBehaviour {
+
+public class FloorLogic : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -18,9 +20,11 @@ public class FloorLogic : MonoBehaviour {
     {
         if (other.CompareTag("Bomba"))
         {
-            GameManager.instance.CmdfloorDestroyed(this.gameObject);
-           // Destroy(this.gameObject);
-        
+            GameObject.Find("LocalPlayer").GetComponent<PlayerController>().CmdDestroyObject(gameObject);
+            //GameManager.instance.CmdfloorDestroyed(this.gameObject);
+            // Destroy(this.gameObject);
+
         }
     }
+    
 }
